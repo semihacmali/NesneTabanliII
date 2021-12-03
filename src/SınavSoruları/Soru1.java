@@ -5,18 +5,18 @@ public class Soru1 {
     public static void main(String[] args) {
 
         //Ekran Ciktisi
+
 /*
         int i = 2;
         do {
             System.out.println(i+"x"+ ++i +"="+ i*++i);
         } while (i<10);
-        */
+*/
 
     }
     // float[] arit = {3, 6, 2, 5.2f, 9};
     // verilen dizinin aritmatik ortalamasını alan fonksiyonu yazınız.
     public static float aritmatikOrtalama(float[] arit){
-
         float toplam = 0;
         for(int i = 0; i < arit.length; i++){
             toplam = toplam + arit[i];
