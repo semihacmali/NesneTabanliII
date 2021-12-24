@@ -6,9 +6,11 @@ public class Calisan extends Insan{
     float maas;
 
     public float zam(int zamMiktari){
+        return zamMiktari;
 
     }
     public float zam(float zamOrani){
+        return zamOrani;
 
     }
 
